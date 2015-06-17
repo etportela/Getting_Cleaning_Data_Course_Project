@@ -145,7 +145,7 @@ final_dataset <- summarize(activity_subject, avg.tBodyAcc.mean.X = mean(tBodyAcc
                                              avg.fBodyBodyGyroJerkMag.mean = mean(fBodyBodyGyroJerkMag.mean, na.rm = TRUE),
                                              avg.fBodyBodyGyroJerkMag.std = mean(fBodyBodyGyroJerkMag.std, na.rm = TRUE),
                                              avg.fBodyBodyGyroJerkMag.meanFreq = mean(fBodyBodyGyroJerkMag.meanFreq, na.rm = TRUE))
-write.table(final_dataset, file = "Getting_Cleaning_Data_Course_Project.txt", row.names = FALSE)
+write.table(final_dataset, file = "./Getting_Cleaning_Data_Course_Project.txt", row.names = FALSE)
 #
 # Alternatively, you can write a file with ungrouped data to check the result via a spreadsheet software like MS-Excel:
 #
