@@ -1,6 +1,8 @@
 # Pre-requisites:
 #
-# - This script must be run under "UCI HAR Dataset" directory, keeping all directory structure inside the zip file when extract it.
+# - All needed files must be under working directory, different from the directory structure inside the original zip file that have some files
+#   inside "test" and "train" subdirectories.
+# - dplyr library
 #
 library(dplyr)
 #
@@ -47,7 +49,8 @@ dataset <- cbind(dataset, y_dataset)
 
 # Step 4. Appropriately labels the data set with descriptive variable names.
 #
-# To accomplish this step, I use the "name" variable from the "selected_features" data frame, subsetting the "dataset" names vector to avoid overwrite the "activity_name" variable name.
+# To accomplish this step, I use the "name" variable from the "selected_features" data frame, subsetting the "dataset" names vector
+# to avoid overwrite the "activity_name" variable name.
 # The meaning of each variable name is described in the code book.
 #
 names(dataset)[seq_along(selected_features$name)] <- selected_features$name
