@@ -37,7 +37,7 @@ Repository for the Course Project of Getting Cleaning Data class
  * subject_train.txt - Each row identifies the subject who performed the **train** activity for each window sample. Its range is from 1 to 30.
  * subject_test.txt - Each row identifies the subject who performed the **test** activity for each window sample. Its range is from 1 to 30.
 
-2. Download the script [run_analysis.R](/run_analysis.R) and save it in the target directory;
+2. Fork this repository and save the script `run_analysis.R` in the target directory;
 
 3. Into R console, Set the target directory as the working directory and run the script `run_analysis.R`, like the following example:
 
