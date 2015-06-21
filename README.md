@@ -52,6 +52,8 @@ Repository for the Course Project of Getting Cleaning Data class
  * Appropriately labels the data set with descriptive variable names;
  * From the data set in the previous task, creates a second, independent tidy data set with the average of each variable.
 
+ For technical details about this tasks, check the [run_analysis.R](/run_analysis.R) comments at the source code.
+
 4. At the end of the execution, a file called "**Getting_Cleaning_Data_Course_Project.txt**" will be saved into the working directory.
 
 For each record it is provided:
